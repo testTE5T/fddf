@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "iii",
+    "igi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "g": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "id": "helicoptermod:helicopter",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "helicoptermod",
+  "version": "1.0.0",
+  "name": "Helicopter Mod",
+  "description": "Adds exactly one small, unarmed, easy-to-fly light transport helicopter. Right-click to place, right-click to fly, WASD + Space/Shift to control.",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/helicoptermod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.helicoptermod.HelicopterMod"
+    ],
+    "client": [
+      "com.helicoptermod.client.HelicopterModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "helicopter_engine": {
+    "category": "neutral",
+    "subtitle": "subtitles.helicoptermod.helicopter_engine",
+    "sounds": [
+      {
+        "name": "helicoptermod:helicopter/engine_loop",
+        "stream": true
+      }
+    ]
+  }
+}
